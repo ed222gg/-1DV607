@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="yacthRegistration.Controller.Secretary" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="yacthRegistration.Controller.Secretary.Choice" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controller\Secretary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAQIAACAEDACCIBAAAAAAQAAEoAABAQAI=</HashCode>
+      <FileName>Controller\Secretary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yacthRegistration.Model.Boat" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="yacthRegistration.Model.Boat.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Boat.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABIAAAAAEAAA=</HashCode>
+      <FileName>Model\Boat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yacthRegistration.Model.Member" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASIAAAAEAAAAAAAAFAAAQAARQAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Model\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yacthRegistration.Model.YachClub" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAAAAAAAEAAAAAQAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Model\YachClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yacthRegistration.Program" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="yacthRegistration.View.YachtConsole" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAYBAAARAgACCAEAAACBAAQAAAQAFQEAEAFAAAA=</HashCode>
+      <FileName>View\yachtConsole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

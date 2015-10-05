@@ -10,3 +10,9 @@ C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegi
 C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe
 C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.pdb
 C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.csprojResolveAssemblyReference.cache
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe.config
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.exe
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.pdb
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.pdb
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.csprojResolveAssemblyReference.cache
