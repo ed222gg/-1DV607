@@ -13,7 +13,7 @@ namespace yacthRegistration.Model
     {
         List<Member> memberList = new List<Member>();
 
-        public void getData(string path)
+        public void GetData(string path)
         {
             memberList.Clear();
             IFormatter formatter = new BinaryFormatter();
@@ -33,7 +33,7 @@ namespace yacthRegistration.Model
             
         }
 
-        public void saveData(string path)
+        public void SaveData(string path)
         {
             IFormatter formatter = new BinaryFormatter();
             Stream stream = new FileStream(path, FileMode.Create, FileAccess.Write);
@@ -42,12 +42,12 @@ namespace yacthRegistration.Model
             stream.Close();
         }
 
-        public void addData(Member member)
+        public void AddData(Member member)
         {
             memberList.Add(member);
         }
 
-        public List<Member> getMemberArray()
+        public List<Member> GetMemberArray()
         {
             return memberList;
         }

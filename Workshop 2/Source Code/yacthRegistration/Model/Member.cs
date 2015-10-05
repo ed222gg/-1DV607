@@ -27,7 +27,7 @@ namespace yacthRegistration.Model
             {
                 if (value == "")
                 {
-                    throw new Exception("Måste ange ett namn!");
+                    throw new Exception("Du måste ange ett namn!");
                 }
                 _name = value;
             }
@@ -42,9 +42,9 @@ namespace yacthRegistration.Model
 
             set
             {
-                if (validateSSN(value))
+                if (ValidateSSN(value) && value.Trim() == "")
                 {
-                    throw new Exception("Måste ange ett riktigt personnummer!");
+                    throw new Exception("Du måste ange ett riktigt personnummer!");
                 }
                 _ssn = value;
             }
@@ -79,25 +79,21 @@ namespace yacthRegistration.Model
             Id = guid.ToString();
         }
 
-        public void addBoat(Boat boat)
+        public void AddBoat(Boat boat)
         {
             _boats.Add(boat);
         }
 
-        public bool validateSSN(string ssn)
+        
+
+        public bool ValidateSSN(string ssn)
         {
             Match match = RegExForValidation.Match(ssn);
             if (match.Success)
             {
-                return true;
+                return false;
             }
-            return false;
-        }
-
-        public void changeInformation(string name, string ssn)
-        {
-            Name = name;
-            Ssn = ssn;
+            return true;
         }
     }
 }

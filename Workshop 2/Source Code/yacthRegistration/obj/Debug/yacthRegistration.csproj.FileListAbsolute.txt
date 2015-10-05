@@ -4,6 +4,9 @@ c:\users\kristoffer\documents\visual studio 2015\Projects\yacthRegistration\yact
 c:\users\kristoffer\documents\visual studio 2015\Projects\yacthRegistration\yacthRegistration\bin\Debug\yacthRegistration.pdb
 c:\users\kristoffer\documents\visual studio 2015\Projects\yacthRegistration\yacthRegistration\obj\Debug\yacthRegistration.exe
 c:\users\kristoffer\documents\visual studio 2015\Projects\yacthRegistration\yacthRegistration\obj\Debug\yacthRegistration.pdb
-C:\Users\e\Downloads\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe.config
-C:\Users\e\Downloads\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.exe
-C:\Users\e\Downloads\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.pdb
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe.config
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.exe
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.pdb
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.exe
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Debug\yacthRegistration.pdb
+C:\Users\e\Downloads\Millan skola\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Debug\yacthRegistration.csprojResolveAssemblyReference.cache

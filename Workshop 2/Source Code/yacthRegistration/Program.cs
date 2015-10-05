@@ -11,7 +11,7 @@ namespace yacthRegistration
         static void Main(string[] args)
         {
             Controller.Secretary secretary = new Controller.Secretary();
-            secretary.run();
+            secretary.Run();
         }
     }
 }

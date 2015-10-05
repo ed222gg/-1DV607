@@ -15,7 +15,8 @@ namespace yacthRegistration.Model
             Motorsailer = 2,
             Kayak = 3,
             Canoe = 4,
-            Other = 5
+            Other = 5,
+            None
         }
 
         private Type _boatType;
@@ -32,7 +33,7 @@ namespace yacthRegistration.Model
             {
                 if (value < 1)
                 {
-                    throw new Exception("Båten måste ha en längd angiven!");
+                    throw new Exception("Du angav inte en korrekt längd på din båt");
                 }
                 _length = value;
             }
@@ -47,7 +48,7 @@ namespace yacthRegistration.Model
 
             set
             {
-                if (!Enum.IsDefined(typeof(Type), value))
+                if (value == Type.None)
                 {
                     throw new Exception("Sådan båtar finns inte här!");
                 }
@@ -61,6 +62,5 @@ namespace yacthRegistration.Model
             Length = length;
         }
 
-        
     }
 }
