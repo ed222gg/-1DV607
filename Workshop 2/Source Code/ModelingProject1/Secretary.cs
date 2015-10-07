@@ -111,24 +111,18 @@ namespace yacthRegistration.Controller
         public void ListMembers(List<Model.Member> memberlist)
         {
             yConsole.ClearConsole();
-            if(memberlist.Count != 0){
-                yConsole.ListingMembersMessage();
-                yConsole.ListMembers(memberlist);
-                int value = HandleReadLine();
-                if (value != 0 && value <= memberlist.Count)
-                {
-                    var member = memberlist[value - 1];
-                    MemberMenu(member);
-                }
-                else
-                {
-                    yConsole.ClearConsole();
-                }
+            yConsole.ListingMembersMessage();
+            yConsole.ListMembers(memberlist);
+
+            int value = HandleReadLine();
+            if (value != 0 && value <= memberlist.Count)
+            {
+                var member = memberlist[value - 1];
+                MemberMenu(member);
             }
             else
             {
-                yConsole.NoMembers();
-                Console.ReadKey();
+                yConsole.ClearConsole();
             }
 
         }
@@ -137,18 +131,11 @@ namespace yacthRegistration.Controller
         public void ListDetailMemberList(List<Model.Member> memberlist)
         {
             yConsole.ClearConsole();
-            if(memberlist.Count != 0){
-                foreach (var member in memberlist)
-                {
-                    yConsole.ShowMember(member);
-                }
-                Console.ReadKey();
-            }
-            else
+            foreach (var member in memberlist)
             {
-                yConsole.NoMembers();
-                Console.ReadKey();
+                yConsole.ShowMember(member);
             }
+            Console.ReadKey();
         }
 
 
@@ -174,26 +161,18 @@ namespace yacthRegistration.Controller
 
         public void DeleteMember(List<Model.Member> memberlist)
         {
-            yConsole.ClearConsole();
-            if(memberlist.Count != 0){
-                yConsole.DeleteMember(memberlist);
-                int value = HandleReadLine();
-                if (value != 0 && value <= memberlist.Count)
-                {
-                    memberlist.RemoveAt(value - 1);
-                    yConsole.ClearConsole();
-                }
-                else
-                {
-
-                    yConsole.ErrorMessage("Ett fel inträffade");
-
-                    Console.ReadKey();
-                }
+            yConsole.DeleteMember(memberlist);
+            int value = HandleReadLine();
+            if (value != 0 && value <= memberlist.Count)
+            {
+                memberlist.RemoveAt(value - 1);
+                yConsole.ClearConsole();
             }
             else
             {
-                yConsole.NoMembers();
+
+                yConsole.ErrorMessage("Ett fel inträffade");
+
                 Console.ReadKey();
             }
 
@@ -248,7 +227,6 @@ namespace yacthRegistration.Controller
         //change boat
         public void ChangeBoat(Model.Member member)
         {
-            yConsole.ClearConsole();
             yConsole.ShowMember(member);
             yConsole.ChangeBoatMessage();
             Model.Boat boat;

@@ -1,0 +1,2261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="160089f2-dbf5-4b61-a812-a8f6758d00e1"
+  name="Model"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8d819a4a-923c-48a8-96cc-c57690a39963"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DyacthRegistration.Model"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="be37d71b-22f7-43d4-883b-80afae4ceee9"
+        name="Member"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b3d0c728-977e-4271-b002-19cdb573f9fa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4baf2ab8-dfa8-4b81-9d5b-2aee93bed2e3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84124853-90a6-4acf-a118-21005981398d">
+                <propertyInstance
+                  Id="ce264a34-756e-46d2-83c0-60e9f848a1a1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc0aedfb-00dc-4cb5-8895-baca0763a71e">
+                <propertyInstance
+                  Id="3f50a27c-4db1-4e35-9eea-75ebc53e254d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="896c438e-b0bc-42e0-9e59-fa6e18b14ea8">
+                <propertyInstance
+                  Id="24922a31-1667-4b2c-a787-8f2e70638272"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f69a66aa-cb54-4b50-b703-012a2259db52">
+                <propertyInstance
+                  Id="2163c4bf-469b-48b4-b4e1-28554ac4e691"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="841e52fc-fc0d-4a60-a6dc-23e79b474616">
+                <propertyInstance
+                  Id="7185343f-ef0d-4ad8-be1f-1b3e73eb550a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="0552b2ad-2b67-4fe7-8c80-7a9516b8528e"
+            isDerived="false"
+            sourceEndRoleName="Member"
+            targetEndRoleName="Boats"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="379e8257-23a5-4795-8a14-d1550bf04a60"
+              LastKnownName="List&lt;Boat‎&gt;"
+              LastKnownLocation="Package5_1559.uml" />
+            <description>Property Boats references type List&lt;Boat‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f683ee26-25dd-43b5-a2cf-def45fa0a8c0"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="339d543e-62c6-4a5c-a0f4-53ff89528575"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="85fa964d-d9cf-4abb-b154-7957add34747"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a327603-0c3c-4c7a-9616-cd20f259688f"
+                  name="Boats"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="da6c4019-3619-48fa-85fc-d99be9902f8a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1484fdb9-2993-453c-ab3f-a0e0067e4320"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="c5b23e9c-0f92-48db-936e-996c27a310e4"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="719c76b0-79bd-4520-90b8-60e6ad127bb4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1c893f5a-de46-4595-b17a-9b585d1d89c3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fd786a2-0220-424f-b81d-1ff1703c9cc6">
+                    <propertyInstance
+                      Id="09f180a7-1f33-4846-a6cf-b3081a39137e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abccae7a-ca03-4a5e-8f12-704a89f0787e">
+                    <propertyInstance
+                      Id="ab5a8a7a-a8bf-4b80-ae63-b333a85e2a9a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3bf34c4-4c13-47ae-8c16-080fb157957a">
+                    <propertyInstance
+                      Id="9ba65075-2e5b-407a-bb06-06364b35e149"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4578a69f-2b60-4305-a9da-ef53045f9a3e">
+                    <propertyInstance
+                      Id="68dd8a09-1e28-4284-b590-378aaa474d2f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2ffbad2-7f0a-4f6f-8411-8347be99cab0">
+                    <propertyInstance
+                      Id="e0c23a12-a56d-42a3-8442-9ee1213e1aad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5f0a1fe-83a4-4e60-968b-9cd2029aafb8">
+                    <propertyInstance
+                      Id="38851a47-4bf8-4f59-8058-07b9504dfad9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e97a3b7-2430-4b96-97ea-ba8d31f99c84">
+                    <propertyInstance
+                      Id="1248a8d8-eca1-422d-8c86-e4b70215fb24"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9071e5b1-76f6-4d61-a3ce-eef003b828e6"
+            name="Ssn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ef1699ee-4676-49e5-b7f8-d496079cc0ee"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3DSsn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8e588c5-1e6f-4283-a692-5299d1654558"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f456c73-1eb8-465b-bde4-12c9ec3bcc33">
+                    <propertyInstance
+                      Id="12e7d53a-03f4-4f60-8b01-7b3d90134c12"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfaf72d8-262f-460e-aad3-c72831b3e209">
+                    <propertyInstance
+                      Id="47d30dac-9e8d-4bf0-818d-9a241ad29db9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="954bf2cd-ae6c-44d3-9214-c84c2157d7a2">
+                    <propertyInstance
+                      Id="a8259475-d0f2-4eed-ae18-81c25e38255d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e4906fc-3bf7-4c72-9231-c287da318e60">
+                    <propertyInstance
+                      Id="c2a0f53a-a08e-4d58-b373-be2262599d10"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bf2818f-fdeb-4aa2-bf6b-f041e6350680">
+                    <propertyInstance
+                      Id="693c3580-9f13-4cc9-81de-d88949dfcc86"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79c5ce2a-427a-4c4d-8d68-baf78a0c0cf9">
+                    <propertyInstance
+                      Id="4cfe279b-589e-46cf-bba8-9361d9799bca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eafa54b-515f-4e76-b047-11b845411bd1">
+                    <propertyInstance
+                      Id="f58c50a6-5659-41cd-b5fa-3fa0b2bd7072"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9932d4a2-4f7b-4c95-9eeb-41b69acd280b"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f4c7190d-0468-4f18-a034-8cd3e1ecbc70"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4c1685a-b2bc-4e39-bbcc-15cbe50c1272"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c8fa58d-32a8-44e4-bf74-25e269a7c3f3">
+                    <propertyInstance
+                      Id="fa40491d-6092-4588-9dc4-92618377233b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfff7dcb-60f0-4e07-933a-bd94bdcc4339">
+                    <propertyInstance
+                      Id="0b2deb2b-2270-4825-b99e-38d7a34c53c2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d834f20-00d0-4cfe-8053-77ee812d7719">
+                    <propertyInstance
+                      Id="2183e85a-0d44-499c-8656-9964b351aa5e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1766e6a9-c6e7-4118-be39-f6e608325d0d">
+                    <propertyInstance
+                      Id="d5bb4406-52c1-42de-ac47-a4fb5448a76b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e779939c-c395-4755-8321-342892485d84">
+                    <propertyInstance
+                      Id="73f60126-2537-4bdd-9a6f-a88b519c3da3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b66443b-406a-4b3d-a521-a8b250edac2f">
+                    <propertyInstance
+                      Id="557a60b2-bcb7-4fde-a6d5-79a9b320b624"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe8a3761-4e47-4d69-9fec-f4beabe3394d">
+                    <propertyInstance
+                      Id="a1c3db82-6e67-4714-b612-bf27c6b72ee2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b752acea-e139-4b0d-92d2-6f955fa9f951"
+            name="Boats"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5c3e0108-010c-4a3d-8260-07661fd766db"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3DBoats"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5c0875d2-0935-4a3d-a915-c95e0b6929ba"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="020acb61-ae11-411c-a5ff-8319201e64d9">
+                    <propertyInstance
+                      Id="851fc9b2-6c77-4d83-8a18-46af1614c15f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aad6355e-ffad-4cc7-b5aa-ea70fc5d50c7">
+                    <propertyInstance
+                      Id="cf3c8aa6-2762-4e46-ae68-0ddb3a112c43"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6025f43a-0e53-4f28-80cb-0fbfb2b786f7">
+                    <propertyInstance
+                      Id="d0f0d8d7-70cd-4b1f-8ceb-58905c4b0fe6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39e609cb-4066-4d6d-94c4-90d8597952db">
+                    <propertyInstance
+                      Id="06eba653-4251-46e4-8768-706fc25da7ee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e28e5b2a-0c12-4f57-8386-f59a5fc14bd8">
+                    <propertyInstance
+                      Id="34fde9b0-7628-491a-adf6-8f04fcb557c7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0e98e25-9cce-42be-9957-9a5f0e854dbc">
+                    <propertyInstance
+                      Id="d6975ad8-e58f-4b0b-a86f-64451487c51d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="434290f1-61bd-47a4-9f52-9c3ec31b6ad0">
+                    <propertyInstance
+                      Id="e95289c1-b150-4391-adba-cf57e3673854"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="379e8257-23a5-4795-8a14-d1550bf04a60"
+                LastKnownName="List&lt;Boat‎&gt;"
+                LastKnownLocation="Package5_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2bc81b07-ce92-45db-bcd1-5fdcfd8eb6d8"
+            name="_name"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4c80afd7-3fb3-4607-83d1-be3f787c9fbd"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D_name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6cf28def-4bac-4d7e-8ed4-cebadb73948b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a3fc4f2-0928-46fa-84fe-076aefc0ae13">
+                    <propertyInstance
+                      Id="4d81ad39-9aa1-4301-8039-3b6e46fcb2b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba37609b-530e-41d2-8546-9b21419b3761">
+                    <propertyInstance
+                      Id="861ed948-078e-4c9a-91f2-91f684eaa06a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4853434-2b8e-4ca0-aa14-aaf715b6f173">
+                    <propertyInstance
+                      Id="47679425-198a-4882-a388-325dd7e12a61"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b31f3c5-3d29-4d58-b305-67aacdc2f032">
+                    <propertyInstance
+                      Id="a7133884-e409-4fe0-a4b0-c7013feaf8d6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c541ca-3b6b-4145-82c6-ec23772163f2">
+                    <propertyInstance
+                      Id="6feeef5f-29d3-4bf1-a185-8f2aa73313fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1d15a2b5-5a61-419b-9713-6b97ebc437c8"
+            name="_ssn"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="309d9a97-8667-4684-9768-fbd7313c974e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D_ssn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a1c92fec-d7fa-4958-9b0f-61850a41b905"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c383e3af-5aea-4071-b683-f268535ca304">
+                    <propertyInstance
+                      Id="01ddec14-50d5-4664-ab1a-30edbba79010"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25dc8d96-2694-43b0-9902-b915ad8d2e04">
+                    <propertyInstance
+                      Id="68d72259-c2bd-4157-8223-98dd19f11698"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="229adefa-8f16-4735-8adf-da4c8b8ce6e4">
+                    <propertyInstance
+                      Id="a0344ab6-8d84-4fa5-94bd-53b22d02be52"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="520d94f8-1bcc-46c0-af8e-eda5bbf0316e">
+                    <propertyInstance
+                      Id="053d7a82-115e-44d0-929d-2d4566d6bac0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c11ebfd7-7157-4d63-827a-a85195562e62">
+                    <propertyInstance
+                      Id="7dd33f2f-f6f5-4df7-a7eb-9ba2f80433e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7703806f-e973-4779-a689-d1ea384e3937"
+            name="_id"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="de67d493-bab1-4521-8ed5-76b2625e2331"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D_id"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5cec469f-c8b6-4d89-84e3-dae055fcb934"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa5ccbc4-c9dd-438b-b3c6-f5a5b4169113">
+                    <propertyInstance
+                      Id="3f84e868-37b7-4266-8b37-4bcc1f22c2a8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="766f998e-2b03-461f-a11e-f625b3e951c3">
+                    <propertyInstance
+                      Id="8a841841-ac8c-4c6c-9046-33ca59c23b8c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a813a19-d979-400f-9367-92190f15b758">
+                    <propertyInstance
+                      Id="c755a40a-41c7-409f-a19b-eccd5bcb2427"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac18734e-ff90-4f7c-b89a-e934a5454a65">
+                    <propertyInstance
+                      Id="62a0af60-620c-4425-a963-0b3fa59bbc6f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0de1ae83-6f93-4fd6-af56-ba5ab81ef56f">
+                    <propertyInstance
+                      Id="8007c4e6-5b2c-4461-8f0e-fa907dfcd229"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3df628da-a3d2-4967-ac97-09c85977aadd"
+            name="_boats"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="85dda4f6-7d6e-4fb9-8f93-3af0b2618e9a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D_boats"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32191bc6-f037-4378-a2d6-6eb76867c9aa"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0deb4bb7-5bae-4d94-a240-c86ce3b7d319">
+                    <propertyInstance
+                      Id="7c1af08e-288d-4483-b6cc-695a75698753"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b0c8908-d42f-4a05-b458-6531fd15fe04">
+                    <propertyInstance
+                      Id="15b29dac-5ef3-4b65-91e6-f1324cb9b345"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f55f8c9-8214-452c-8c5c-c56ae9c61260">
+                    <propertyInstance
+                      Id="4240c72f-f6aa-4db2-8712-8806e1ead7a3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28e2209a-f040-45a9-a448-98d7a5718c13">
+                    <propertyInstance
+                      Id="47ca36f7-2629-4ac6-924f-45c5f1d88431"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="383e32ea-6e3b-4793-8f6c-dcdcf7ca252e">
+                    <propertyInstance
+                      Id="9e0e4bfd-f813-4737-af4f-9c316da8f6f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="379e8257-23a5-4795-8a14-d1550bf04a60"
+                LastKnownName="List&lt;Boat‎&gt;"
+                LastKnownLocation="Package5_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="edb01c74-6d1d-4e85-9d75-dde7fbd69a98"
+            name="RegExForValidation"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="55034566-5748-46f8-a891-7251204060ac"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3DRegExForValidation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5fdff30a-bb91-4857-ac46-e8c204bb8103"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a196d2d-d345-485c-bbe0-e045ae9a1947">
+                    <propertyInstance
+                      Id="f652d279-4403-4363-af7a-9822b6876811"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8127d6b8-a6b8-43fe-b112-1508e9cdfafd">
+                    <propertyInstance
+                      Id="41e60274-2014-4336-bea6-143ddabf9d54"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f021cb5-42d0-4005-b3ae-44e072ffa315">
+                    <propertyInstance
+                      Id="d7c5472c-e0fd-49ff-8dc3-e99d070b1da6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d4e0dc9-b82b-4eb7-ad53-06b6de2f501d">
+                    <propertyInstance
+                      Id="1a3bb13c-9a86-4acf-8c68-0fd862e4efa5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ab1e365-3880-42b4-9eb4-d2b41e180220">
+                    <propertyInstance
+                      Id="4079b504-0665-45f1-bee8-4225b3c69ca8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="2444b314-af1c-4b05-a2f4-a09b4074afdc"
+                LastKnownName="Regex"
+                LastKnownLocation="Package8_1559.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="edb10dbb-ab93-41be-8e31-19542687187b"
+            name="Member"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d482dc80-36b2-446c-bae1-e2c8fbb24e7b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6600e5a5-9864-4fc0-92ec-6eb637cc86b4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c09d8eb-612f-423e-81cb-b2cb5205a432">
+                    <propertyInstance
+                      Id="111cd773-a596-4894-8e3e-68156a78cdc9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72fbc94b-6533-4ebc-b3c7-433fa8c63023">
+                    <propertyInstance
+                      Id="f8240017-9f4f-49a0-a1ae-df75cbce64cc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f7c895e-6ea0-4876-86e1-9791838c5c98">
+                    <propertyInstance
+                      Id="41cdeff0-ad90-493c-bba3-5095fe3784fb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2770717-1be7-4e9b-a1a4-b0178b99ff57">
+                    <propertyInstance
+                      Id="0aade728-3b81-48e0-bcea-736b168ddaf4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebf9055b-c815-4fb2-8c6b-a259efe5c701">
+                    <propertyInstance
+                      Id="dddf7b98-9cb7-4d72-bcc3-af3f6dc22186"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca89e4a-342f-4bd7-8a6e-291a25d18955">
+                    <propertyInstance
+                      Id="2b09f544-5572-4115-b48d-8047709adfee"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e7fc1bcb-a4da-4271-a41f-ea917c230304"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="38bc94cd-7bd1-439b-b0e8-29af328ba772"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5be50239-4b49-47ab-9e58-1327a2a69d8b"
+                  name="ssn"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="56697c0a-89c1-4c0e-8d9f-ab58c148b2cc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dssn"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a502b73d-0954-4ed9-a15d-59b170224203"
+            name="AddBoat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="479105a0-01ae-4e92-a44a-18c33871e056"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3DAddBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a42adaf-fa07-4e88-a6ff-6445fb097339"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d45de16-a3c9-4bc0-8568-316bb65fd82c">
+                    <propertyInstance
+                      Id="e448da78-b6cc-4d27-b4b3-da02e94a50f5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8cb123b-fad5-4510-94e3-46744b5f494d">
+                    <propertyInstance
+                      Id="881421ed-95bd-4506-a1e2-5bedc1a99593"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91ecbdf1-cad2-4dde-83d6-fcfd17050da9">
+                    <propertyInstance
+                      Id="e4ac8580-b846-4d4e-a0b1-31b0a4101f84"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab761cc3-d7d9-4b2b-a3a3-04a66905486d">
+                    <propertyInstance
+                      Id="7923f3ae-96a9-446d-a757-4b271a0f6c3f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b5e9772-9ce3-4c21-9295-3230c5268329">
+                    <propertyInstance
+                      Id="24abf630-3773-4ab2-ba3d-f484b87cc0ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67de6274-b994-4804-a6dc-6e5ab8689368">
+                    <propertyInstance
+                      Id="a035b9bc-b365-4c48-805d-d98c60b91fd2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b805891b-b2ce-4b66-924a-007b860d0852"
+                  name="boat"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d0109b7a-faad-481d-917a-22251e188277"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3DAddBoat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat)]) ParameterIdentifier%3Dboat"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3899d055-9b02-4d45-8ec4-3f03f9895df0"
+                      LastKnownName="Boat"
+                      LastKnownLocation="Package2_1559.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a34d7ce5-c4ea-4f34-aad3-f07a8f4313a3"
+            name="ValidateSSN"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a6063f4a-4a28-4317-a5de-c43ae5d0ed0a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3DValidateSSN OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e5b28e12-4c16-46bd-a34b-34c6f82912db"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d205a787-9721-4802-8909-c65954b696c8">
+                    <propertyInstance
+                      Id="2f791e67-f15e-44a5-bace-5290ef6dcd01"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a646591c-8c41-4119-b474-fbc7fd343ac2">
+                    <propertyInstance
+                      Id="2be93edb-bdb8-4a17-938c-2d46ca14fc5f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a3aa53a-bef6-49e9-89f5-b692f6e9f1fe">
+                    <propertyInstance
+                      Id="fee6b03b-d22f-4c45-b8d4-f9240c11bfb3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3932c165-246f-44d6-9550-d190a8110ba2">
+                    <propertyInstance
+                      Id="76558a66-b53f-4bc0-9991-a4eeabd9a575"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5169a53-14cc-4b0a-b929-24d45a8191e4">
+                    <propertyInstance
+                      Id="c866b99f-8e30-4d9c-815a-f873473b10ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58dd9b07-c119-4a5b-a9e9-8b51fd6f7abb">
+                    <propertyInstance
+                      Id="0ff042f6-32b9-4fdc-a7d3-2b5e2c48ab03"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="43191214-9944-425b-8800-fb533553a056"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a81613d1-e719-448b-9c6a-9a3d41572c71"
+                  name="ssn"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83ef4a5e-68d6-404b-8725-143cc1a793e6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember Member%3D(Name%3DValidateSSN OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dssn"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="2d778e2f-6c6f-4e61-ae80-11574ce30e22"
+        name="Type"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="9eabfb69-78b3-48d3-9c39-562ba8c9cb48"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3D(Name%3DType ParentType%3DBoat)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e84d81cf-c04d-498b-aecd-fbcfc19e9ab0"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e90db164-6a4d-4215-acfa-97dfd69c0119">
+                <propertyInstance
+                  Id="60f6410a-8c22-451f-8799-af2a9b9858df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa0d0c8f-ff24-4e76-a670-321f0b87bbb6">
+                <propertyInstance
+                  Id="418d7125-1c0b-43ad-9799-bec04c0bf84c"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="655840e7-221f-449c-939a-b1125714fe3b">
+                <propertyInstance
+                  Id="4009e0c4-ad1b-4363-83fd-17c802754d11"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3969c6a5-ec72-4444-b5c5-b7773bc809aa"
+        name="YachClub"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f05eafe5-8b79-4c15-9417-0113a81774f2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="227e7a80-b043-429e-bfcb-7f1421fa368c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdb4413c-b918-4a01-877c-898e187aebc2">
+                <propertyInstance
+                  Id="0c40be99-c969-4ebf-91d3-be90c2a2aeba"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ea75d6a-6a17-4e0c-8833-00677c5effac">
+                <propertyInstance
+                  Id="c81ee570-a041-4596-a259-9536f0eb4d96"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7332fe24-437f-41a4-b4d2-a8f2d4eccfdc">
+                <propertyInstance
+                  Id="2b971b26-969f-4bbd-85ef-90ca13632a1b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1dadb10-deb3-4506-8e66-ca42efa18f9b">
+                <propertyInstance
+                  Id="b79076e3-f04a-4203-ac9b-13e79d44491e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af0c29b3-83f0-484a-ac38-7aa243ceb500">
+                <propertyInstance
+                  Id="6eeab491-0d11-4607-a63d-05d93b5f1a87"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2abaf1c7-7e48-494d-9b32-9e3a5dcab1f4"
+            name="memberList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a002a3b7-dbae-443b-a6d2-8ded70c100de"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3DmemberList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0e190132-b909-4cd2-80bc-7f09218753ef"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d697ffd-0faa-4e6b-bae4-aa411809fc45">
+                    <propertyInstance
+                      Id="0a70ae0c-0450-4404-a5d2-0e03a6ce8699"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55e7cca8-ed6e-4232-b204-5812a46644e9">
+                    <propertyInstance
+                      Id="f0dc2f35-4722-422e-81a6-6f5b29a0b824"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1353a19c-c0a3-4229-bfa2-e01c42ddff93">
+                    <propertyInstance
+                      Id="d6c1bd4b-bd99-4810-b721-d894e0844d36"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89de5a47-5f13-445b-b0b6-ee179299050a">
+                    <propertyInstance
+                      Id="91dfc021-2633-42a1-adda-0162cf9a9ea7"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3e7b779-8b69-4323-ae20-066de6ecc32e">
+                    <propertyInstance
+                      Id="f4829a69-e315-48ec-90a3-13d70dd2b4bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a19637b7-4f8d-4191-88c6-299cbc1cedfe"
+                LastKnownName="List&lt;Member‎&gt;"
+                LastKnownLocation="Package5_1559.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fde3059f-164b-45c7-bdb9-13d867ca9fc3"
+            name="GetData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0f8a5278-8def-4922-b2c7-9836cfa55e2e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DGetData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="574f42f5-3b58-4e7c-ab41-6d8ab64318ba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c58d67ff-3ba4-4525-ac1f-f102caf2d74a">
+                    <propertyInstance
+                      Id="ecd12e22-13aa-461d-ac67-c459292e07ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31040c97-61a2-4bb1-b750-cca53f883beb">
+                    <propertyInstance
+                      Id="1e8a2add-b6cc-4a56-84c3-3fe1db397ed2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fdc6f93-fffa-4c19-bdf8-ee9f97688b40">
+                    <propertyInstance
+                      Id="7fa5da95-40ad-40d7-83bf-ea1f7ec6d89b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e92bc4c5-817b-4cef-8445-b559ad84a19a">
+                    <propertyInstance
+                      Id="91168056-dbb9-46b1-9aa5-ffecd12b3abc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03dece76-d67f-44c7-8ebb-4b7662a4ac61">
+                    <propertyInstance
+                      Id="15938f0a-cac9-4f93-860f-369d398a3abe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f747d842-54c6-499b-9271-718f17e9a025">
+                    <propertyInstance
+                      Id="f96c0a33-cade-470c-9b96-49ee7433dd46"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c87e5af2-1b79-4607-b763-c144a3a75128"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d7e6b805-1026-4514-805e-ea3ec9da2444"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DGetData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9323ad1f-baf7-4e48-9444-d7b25a42f001"
+            name="SaveData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ebd4093c-b13a-4245-bdec-21cafe8192cb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DSaveData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a67cfd0-d321-46fa-a413-097bb5959524"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e422d630-4def-46b7-a466-b318997864a0">
+                    <propertyInstance
+                      Id="d8b80514-5e4d-476b-a14a-167f23a0874c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32d0220c-d641-499c-8f10-01614db3503c">
+                    <propertyInstance
+                      Id="e79aa502-e643-4ffc-bd64-a43a11f0c17f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e56eae8b-76a3-43aa-ab43-525abb158335">
+                    <propertyInstance
+                      Id="6e18c73b-c307-4a55-9fc0-b2004e05ba51"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11c9d277-ecbe-4940-bd00-ce95fb8caf34">
+                    <propertyInstance
+                      Id="2531e586-8c86-43e9-b426-44729c4fd125"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="940d25ab-d523-4ef1-b7d9-788285f9031a">
+                    <propertyInstance
+                      Id="6a31130a-c6e2-40fd-a6f3-b6f6f0ece06b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9352bdf4-bd9f-4812-a7fd-77d73f66dd04">
+                    <propertyInstance
+                      Id="3fa5d5ac-c98e-4da9-b85c-9db52c65dfbe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="27f14159-8796-4b80-9abd-74d8bf819452"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6cdffb64-a9b1-4e0f-a301-3ca72f788626"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DSaveData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b33d6e18-8f8d-4aa5-9009-710720f3f6d1"
+            name="AddData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6a3c4ff9-7021-4d5e-9329-827b25cfa6f4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DAddData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="04e801f3-4f80-4d88-b144-6f9d24664ae7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49c4097c-87b6-414b-b1a5-27989ecc2e07">
+                    <propertyInstance
+                      Id="b1c94e5d-d963-473a-989d-810b76837846"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b97c6e75-1baa-485e-92aa-49a706e1dc0f">
+                    <propertyInstance
+                      Id="d7c630fb-98c6-4b27-9cb8-c025b9eee805"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec3a8116-076a-4356-b5dc-1da0fecba2b0">
+                    <propertyInstance
+                      Id="18cd0078-4dbc-4d3a-8f09-1c5a49ca2e5c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d20f06e5-ddd7-447f-855d-a05e58930178">
+                    <propertyInstance
+                      Id="eeede147-345f-4432-9b38-d91e52bce4b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09a1e61d-8b2d-46f4-8737-72ef4dbc12c8">
+                    <propertyInstance
+                      Id="09b95b52-a8b4-4b76-9032-655600fb743e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a361f3b0-dc76-4506-9e88-e058a9ecdc4d">
+                    <propertyInstance
+                      Id="d2e9a87f-00b4-442c-9086-9b191e8b3aba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8734e2f9-ce41-484e-b09d-0f694c858e1e"
+                  name="member"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b4873cf1-17b6-49f2-aa2d-994e4e92d942"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D(Name%3DAddData OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DMember)]) ParameterIdentifier%3Dmember"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="be37d71b-22f7-43d4-883b-80afae4ceee9"
+                      LastKnownName="Member"
+                      LastKnownLocation="Package2_1559.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="360c9c7c-72e2-4aae-a28b-7a28e7b1d088"
+            name="GetMemberArray"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f2762f2e-f445-4c5a-9c51-af5b678c228a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3DGetMemberArray"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="156a871b-f08f-4a6a-aa96-f63b7febd859"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe76ceaa-472b-4b00-ab4c-3510b07994be">
+                    <propertyInstance
+                      Id="8abe2173-6c3c-417d-8b21-ce71a8e2e8e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53221ada-c2cc-4d32-81dd-180bedb5e3ea">
+                    <propertyInstance
+                      Id="1330e447-0ee9-4094-8807-ad4275aea6a3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13857938-a19c-415f-87df-2ef7fe0652e2">
+                    <propertyInstance
+                      Id="6967c3f3-b03d-407c-b317-94a0b0325620"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a210fa9c-c2b2-4796-8a4f-738a8205d754">
+                    <propertyInstance
+                      Id="e5ad795d-b648-42c5-adb4-7252d3077925"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="780cb697-85c2-4330-a6f9-d88c1a653b34">
+                    <propertyInstance
+                      Id="8fa0c5a6-ab9e-4251-8b0f-8fd853e4cba5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90c7a44e-8f2c-4b70-bc2f-eeb0f5ffcc13">
+                    <propertyInstance
+                      Id="c2bd1e4b-926e-4ed8-9bf9-f4c3b81eccf2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d109b243-aae9-4ab9-b26d-968d1802ec1d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a19637b7-4f8d-4191-88c6-299cbc1cedfe"
+                      LastKnownName="List&lt;Member‎&gt;"
+                      LastKnownLocation="Package5_1559.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ac299b3d-249c-4dbc-ac21-b243c22ac810"
+            name="YachClub"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="730a622a-fb90-4a45-8571-b927b728832c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DYachClub Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="edbe90f3-2fca-4852-8f3a-5b74f1288935"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8ec47c1-8e67-47a3-81cd-51268bdfa76f">
+                    <propertyInstance
+                      Id="2d4bb04f-a964-437e-be03-b1f8ec41eaba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd132573-0af7-44e3-880b-1b85d33c22d4">
+                    <propertyInstance
+                      Id="f7f55be7-58a3-4df5-8c4e-f453e27ff5bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c33d8cc5-fe09-469f-a383-4648493d6188">
+                    <propertyInstance
+                      Id="f0fd9dca-a18c-41e2-9a23-e20a1b92111d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="413fd4e7-3193-4778-adda-61391d85b3d8">
+                    <propertyInstance
+                      Id="3ae8d181-7f30-4749-abb1-73c18bac107d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd9dc5c2-149a-4166-98f4-8849e96fe1e2">
+                    <propertyInstance
+                      Id="1c8a5864-d6ea-4a0d-a31f-58c319b392ec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9932af4c-c2d2-4876-8b32-599838a7e8bb">
+                    <propertyInstance
+                      Id="87091913-8acf-42ee-8fa0-416130410921"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3899d055-9b02-4d45-8ec4-3f03f9895df0"
+        name="Boat"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e6334166-19c7-4f0e-b54e-210b93e33520"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="dfba44c3-ad92-4fc4-b11a-301f27635afe"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e6c4fe5-66c4-4aef-a779-3e65296f767c">
+                <propertyInstance
+                  Id="5a6978b4-0d1d-4a49-90eb-98195e35eac5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f201056-cdc6-4077-be03-a9f9b631f674">
+                <propertyInstance
+                  Id="3dbda5c1-f508-4b9a-9339-01c73940ee98"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a904341-684e-4ba8-82ad-294daf179a4f">
+                <propertyInstance
+                  Id="edc23013-b1cf-45cf-87ec-3583337ba142"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6271f161-042a-4dda-b8cd-f248122063e7">
+                <propertyInstance
+                  Id="939d3314-1ee7-464e-bf12-8577395634f9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbd6d2ea-8055-4e12-bf55-1c59f9080b9a">
+                <propertyInstance
+                  Id="b8d696ee-5fbb-4c1f-b7fb-6ce0e919c221"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="177d7713-90dd-4e24-8757-edbf164c4df5"
+            isDerived="false"
+            sourceEndRoleName="Boat"
+            targetEndRoleName="Length"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="41caa17f-65ef-4b28-ab30-e4792feaf507"
+              LastKnownName="Single"
+              LastKnownLocation="Package3_1559.uml" />
+            <description>Property Length references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33030696-2148-4128-87ef-cc5240464e36"
+                  name="Boat"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e835963d-de31-4020-8a14-2ccb4c98451c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4953b18c-2776-432a-ba32-47b4413a4860"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="57f10e43-4381-499b-ae23-b638bb89549e"
+                  name="Length"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ca2be487-a559-4203-a182-0bf94f3f1ac2"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d8857fe0-a93f-4045-a44d-b038550879d9"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="91d938ee-6ee3-4752-9a97-30809735ae7f"
+            isDerived="false"
+            sourceEndRoleName="Boat"
+            targetEndRoleName="BoatType"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="2d778e2f-6c6f-4e61-ae80-11574ce30e22"
+              LastKnownName="Type"
+              LastKnownLocation="Package2_1559.uml" />
+            <description>Property BoatType references type Type.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6892eda2-abf9-4fd7-ba5d-298ee17c2f22"
+                  name="Boat"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="82282cea-2805-4d78-b403-c717e925b973"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="346e91a8-dc7f-4abd-bbb5-b021a90048e4"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd996433-1689-47e0-9b40-ee768d9a998b"
+                  name="BoatType"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5cbdde80-38ad-4472-af48-268223d48573"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8d4bb2fa-97a8-4534-959f-79dab39c3040"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2e522712-61f8-41c5-8374-424acbf957f2"
+            name="Length"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="83807868-2a89-4d0d-8ba7-c00f8304415a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3DLength"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2eef48f3-1893-48c0-902e-63314d79e878"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47083245-c0fa-45a4-8e53-4a699055ae78">
+                    <propertyInstance
+                      Id="f2be7d29-6f15-4461-971d-ba1f88c16155"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="caf63850-221a-44b5-af41-a743d1f12723">
+                    <propertyInstance
+                      Id="1aee7c85-c1dd-4ffb-9cdf-ae5eac27b2bc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="604d1adc-3b4b-4f8b-b549-8f3fb8842afe">
+                    <propertyInstance
+                      Id="84234be9-2934-4b14-8860-46939b23012f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5763a737-0a05-44be-b4d6-d9bc93c0b033">
+                    <propertyInstance
+                      Id="b5e4cf2a-17b6-43d2-9020-a78be2ee5860"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58d06859-e034-4610-a75d-f08a0be63ccc">
+                    <propertyInstance
+                      Id="86dbd760-1c40-4ed4-8f97-24d0bb2aeca6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ee82ada-eee2-42e3-9f2b-8152e9ee8f6e">
+                    <propertyInstance
+                      Id="5917e4d9-aa3b-45e6-a945-109dd405cc0a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74178c78-518c-4d49-9be2-439722983bbc">
+                    <propertyInstance
+                      Id="4fe89d61-8b23-44a3-a64e-b39ea8c458f6"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="41caa17f-65ef-4b28-ab30-e4792feaf507"
+                LastKnownName="Single"
+                LastKnownLocation="Package3_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="db4437f0-cdfb-4f35-b0c3-cefe3451057b"
+            name="BoatType"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="26d1cf8d-99bf-48da-bddb-cb4e80033e3d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3DBoatType"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74abd3b7-2f56-4d29-8240-c887987ab6ad"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d0b20ee-b58c-4ed0-b4b3-5c65534b8f7e">
+                    <propertyInstance
+                      Id="4f25f39d-6ac8-4545-952c-8244b30f3da4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88fd8cd-5509-4bc4-bbc7-0805c6ebcde6">
+                    <propertyInstance
+                      Id="e2089483-def1-403e-be0a-c6c49949bdad"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7e8de48-4bef-4e81-9abe-f649b73d5fbc">
+                    <propertyInstance
+                      Id="39e7975b-e4ac-4a7e-87b9-9df86064b7c5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7630bdf1-572d-4546-a44a-fed798d574f8">
+                    <propertyInstance
+                      Id="aa5279a8-219a-46ed-83d8-eba773a57d41"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4525ca49-1740-48a4-aef2-65b2132f9868">
+                    <propertyInstance
+                      Id="975bb20b-99ba-4e6b-aa9b-72c82ec83610"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7777a8b5-5659-4cc5-9ad5-897a55853c4b">
+                    <propertyInstance
+                      Id="2ffc9caa-e993-45ee-af81-a4261c630e54"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5c867ee-0f3d-4104-8112-c706026a6a9b">
+                    <propertyInstance
+                      Id="96699003-0c69-4e33-977b-8744da34e411"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="2d778e2f-6c6f-4e61-ae80-11574ce30e22"
+                LastKnownName="Type"
+                LastKnownLocation="Package2_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f26db55d-2deb-4015-af25-e6b3a0c70f0d"
+            name="_boatType"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6a34d294-9199-4241-96db-06be6a15308f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3D_boatType"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="75509e79-2a76-4014-9cb7-44bc0d21a6d7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db9d277a-0743-482f-9abc-a0af06121399">
+                    <propertyInstance
+                      Id="ed3fcb3a-17d3-4621-9ee1-78d966250211"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c37fb1-24e8-4f5a-b13a-4ae743dc6df3">
+                    <propertyInstance
+                      Id="3f68e626-9cb8-44a8-be99-89b7a3d4d7bd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d3d0cd2-cedd-4ed5-a818-25d6e5a8efe5">
+                    <propertyInstance
+                      Id="9b17c9f8-74f4-4799-9c53-7fab282b04b0"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77c621a0-6541-4614-8cb1-afa59f7d90cb">
+                    <propertyInstance
+                      Id="c641cdf3-9f73-44ef-b198-374351c8991b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0df728a-aca6-4e32-be2a-e2495c00f75b">
+                    <propertyInstance
+                      Id="c3760ca6-5c75-4055-8229-7015b4b9e41f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="2d778e2f-6c6f-4e61-ae80-11574ce30e22"
+                LastKnownName="Type"
+                LastKnownLocation="Package2_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5c3a0feb-bf88-4314-931d-ce3368f87a26"
+            name="_length"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="63bc1cf8-a80d-411d-8adb-3173daf27b85"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3D_length"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="939ba211-bfb8-47ec-8076-c7afc501007e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd698536-48c7-45ce-9fca-eb098b2ad8fc">
+                    <propertyInstance
+                      Id="67feb0cf-a691-4529-86fe-1500594897f7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf31802a-3160-446a-89a2-43f729e6df81">
+                    <propertyInstance
+                      Id="eed23a89-e171-46a7-b80a-6eb356c145ce"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf1af595-f00c-455a-b04a-489d7acb7c81">
+                    <propertyInstance
+                      Id="bb787e0f-ba6b-4854-ae17-a743cb1559a3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68afd19e-ca08-4a83-8d2b-97dc1e1e2a4a">
+                    <propertyInstance
+                      Id="0b8d5fcc-2041-43cc-b14a-bd3c30d02f08"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b982e122-26b8-497b-a827-0d46719fbc6d">
+                    <propertyInstance
+                      Id="3c9f09f0-ac87-4de5-aa28-1c0942b6afb5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="41caa17f-65ef-4b28-ab30-e4792feaf507"
+                LastKnownName="Single"
+                LastKnownLocation="Package3_1559.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1d1d8a9b-7472-4be9-8b3c-77cc916c538d"
+            name="Boat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a26c8d2c-7fd9-4006-ae69-eb8abda2103f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3D(Name%3DType ParentType%3DBoat))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3d1abdb-056e-4892-ab46-7bb2f66856a8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b82720b2-7f2c-4f3d-b805-ee60d958116e">
+                    <propertyInstance
+                      Id="2b2a0dbb-7d62-451c-b43c-da78d8e5de2c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8713d2d-26d0-4799-971b-2ea1950e4570">
+                    <propertyInstance
+                      Id="d52a6642-9131-468b-9ae5-8d5a0f0854ed"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e247bd1-8df4-4ad8-8440-0e2088ff8acf">
+                    <propertyInstance
+                      Id="67c787ec-3180-4b18-a5d9-bfa00c4a407b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8463a4e-0e11-4495-b52b-8d87080c4027">
+                    <propertyInstance
+                      Id="67716c75-766e-4852-8a36-f576f05de60b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4e47ea9-a986-48d6-80c0-690b911e998d">
+                    <propertyInstance
+                      Id="90d35fa0-3b43-41c2-95ff-aad7579e5cbe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb993df4-86a8-40f1-957e-3380cf337f45">
+                    <propertyInstance
+                      Id="b38b6e04-4b95-46ba-b7c5-9db9a3860205"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b72db32b-d69d-4068-9718-05bba8d7cedd"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7374357a-7575-4dac-afbe-28c18c6b305b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3D(Name%3DType ParentType%3DBoat))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dtype"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="2d778e2f-6c6f-4e61-ae80-11574ce30e22"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package2_1559.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3c591adc-4ae7-48db-83ae-f5546932689b"
+                  name="length"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4c047072-6def-4067-97f0-e11faf297561"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3DBoat Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FP:%2F1DV607-master%2FWorkshop 2%2FSource Code%2FyacthRegistration%2Fbin%2FDebug%2FyacthRegistration.exe&quot; Namespace%3DyacthRegistration.Model Type%3D(Name%3DType ParentType%3DBoat))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dlength"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="41caa17f-65ef-4b28-ab30-e4792feaf507"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package3_1559.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -29,6 +29,11 @@ namespace yacthRegistration.View
             Console.WriteLine("Tryck valfri knapp för att återgå till startmenyn..\n");
         }
 
+        public void NoMembers()
+        {
+            Console.WriteLine("Finns inga medlemmar i klubben..\nTryck valfri knapp för att återgå!");
+        }
+
 
         //Member Messages
         public void EnterName()
@@ -106,7 +111,7 @@ namespace yacthRegistration.View
 
         public void RemoveBoatMessage()
         {
-            Console.WriteLine("Välj båt som skall TAS BORT!! VARNING, du kan inte ändra dig..\nTryck in siffran..\nEller valfri knapp för att återgå...");
+            Console.WriteLine("Välj båt som skall TAS BORT!!.\nTryck in siffran..\nEller valfri knapp för att återgå...");
         }
 
         public void EnterBoatLength()
