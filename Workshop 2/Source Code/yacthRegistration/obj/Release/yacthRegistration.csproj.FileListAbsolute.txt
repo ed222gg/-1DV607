@@ -3,3 +3,4 @@ P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Release\yacthRegis
 P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\bin\Release\yacthRegistration.pdb
 P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Release\yacthRegistration.exe
 P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Release\yacthRegistration.pdb
+P:\1DV607-master\Workshop 2\Source Code\yacthRegistration\obj\Release\yacthRegistration.csprojResolveAssemblyReference.cache

@@ -268,8 +268,16 @@ namespace yacthRegistration.Controller
                 string floatValue = Console.ReadLine();
                 float boatLength = HandleBoatLength(floatValue);
 
-                boat.BoatType = boatTypes;
-                boat.Length = boatLength;
+                try
+                {
+                    boat.BoatType = boatTypes;
+                    boat.Length = boatLength;
+                }
+                catch (Exception e)
+                {
+                    yConsole.ErrorMessage(e.Message);
+                    Console.ReadKey();
+                }
             }
 
         }
