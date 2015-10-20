@@ -24,7 +24,7 @@ namespace yacthRegistration.Model
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message); //konsollsak
+                Console.WriteLine(e.Message); 
             }
             finally
             {

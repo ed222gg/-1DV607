@@ -29,6 +29,11 @@ namespace yacthRegistration.View
             Console.WriteLine("Tryck valfri knapp för att återgå till startmenyn..\n");
         }
 
+        public void NoMembers()
+        {
+            Console.WriteLine("Finns inga medlemmar i klubben..\nTryck valfri knapp för att återgå!");
+        }
+
 
         //Member Messages
         public void EnterName()
@@ -50,7 +55,7 @@ namespace yacthRegistration.View
         public void ListingMembersMessage()
         {
             YellowMessage();
-            Console.WriteLine("Mata in en medlems positionssiffra för att visa/ändra dess information tryck sedan Enter.\n");
+            Console.WriteLine("Mata in en medlems positionssiffra för att visa/ändra dess information tryck sedan Enter.\nTryck valfri bokstav för att återgå till startmenyn");
             ResetTheColor();
         }
 
@@ -70,7 +75,8 @@ namespace yacthRegistration.View
 
         // member detail
         public void ShowMember(Model.Member member)
-        {            
+        {
+            Console.WriteLine("Tryck på valfri tangent för att återgå till startmenyn\n");
             string output = String.Format("Namn: {0}\nPersonnummer: {1}\nUnik ID: {2}\nAntal Båtar: {3}\n", member.Name, member.Ssn, member.Id, member.Boats.Count);
             int pos = 1;
             foreach (Model.Boat boat in member.Boats)
@@ -106,7 +112,7 @@ namespace yacthRegistration.View
 
         public void RemoveBoatMessage()
         {
-            Console.WriteLine("Välj båt som skall TAS BORT!! VARNING, du kan inte ändra dig..\nTryck in siffran..\nEller valfri knapp för att återgå...");
+            Console.WriteLine("Välj båt som skall TAS BORT!!.\nTryck in siffran..\nEller valfri knapp för att återgå...");
         }
 
         public void EnterBoatLength()
