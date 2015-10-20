@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d278ff1a-c8b3-42f8-879e-096c5d6f41bc"
+  name="rules" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="58af7669-485b-4782-9284-2c394b780337"
+        name="RulesFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="32605359-822a-4083-8069-0eee32044391">
+            <classMoniker
+              Id="1724a6de-e6f1-41d3-96c2-86e521bd21ba"
+              LastKnownName="BasicHitStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+          <dependency
+            Id="03f103cf-2286-41ce-8677-8f04802f2905">
+            <classMoniker
+              Id="82d1a27f-38b7-4809-9a96-660903e8c5ea"
+              LastKnownName="SoftHit"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+          <dependency
+            Id="20d3821a-4cde-44f9-9617-0a1d6a998da3">
+            <classMoniker
+              Id="4e1911d5-b296-42a7-9bce-a413bd64fea5"
+              LastKnownName="AmericanNewGameStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+          <dependency
+            Id="19e95ed2-0fd7-41f7-80f7-1df055356151">
+            <classMoniker
+              Id="98308de0-1386-4d82-a173-6fe81cce1123"
+              LastKnownName="InternationalNewGameStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+          <dependency
+            Id="a1b6be07-409d-4496-bb6e-1fd25bf3f21e">
+            <classMoniker
+              Id="6d2bcdb7-2cca-4302-ad09-298c7d196f24"
+              LastKnownName="AmericanWinningStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+          <dependency
+            Id="c62b4bc7-437e-4d52-a110-7d503a194c79">
+            <classMoniker
+              Id="6d8332b2-dfd9-4d60-bf66-05e0f5396851"
+              LastKnownName="EuropeanWinningStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="82d1a27f-38b7-4809-9a96-660903e8c5ea"
+        name="SoftHit"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="4150a513-9207-41eb-8bf2-fe897fba4105">
+            <interfaceMoniker
+              Id="af4c3f36-61c9-4007-8ddd-936918a379cd"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1724a6de-e6f1-41d3-96c2-86e521bd21ba"
+        name="BasicHitStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5e55f357-7b70-4a86-94bf-d62ecc741eb3">
+            <interfaceMoniker
+              Id="af4c3f36-61c9-4007-8ddd-936918a379cd"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="98308de0-1386-4d82-a173-6fe81cce1123"
+        name="InternationalNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a3e75880-446e-4311-956c-c52a57f08f8e">
+            <interfaceMoniker
+              Id="4a037bad-d898-4a42-8c32-5ec8df14189f"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4e1911d5-b296-42a7-9bce-a413bd64fea5"
+        name="AmericanNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f357715d-0089-4466-bbee-886ab2a51da0">
+            <interfaceMoniker
+              Id="4a037bad-d898-4a42-8c32-5ec8df14189f"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c3071778-8ec6-4fb9-b207-33e4c23cc222"
+        name="IHitStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="dac2cc06-1303-4958-8b74-83a8f64f65c5"
+            name="Attribute1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a7afcaa9-0c9d-442e-bb2d-737fc4bb8436"
+        name="Class7"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6d8332b2-dfd9-4d60-bf66-05e0f5396851"
+        name="EuropeanWinningStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="70fc02d1-7ec5-46bb-b7d7-15cfe05873ec">
+            <interfaceMoniker
+              Id="99d37e9e-9240-4fdf-84b0-befd46fb6ade"
+              LastKnownName="!WonRuleStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6d2bcdb7-2cca-4302-ad09-298c7d196f24"
+        name="AmericanWinningStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="98634995-aaf7-41a6-ae2f-06f15f7130d0">
+            <interfaceMoniker
+              Id="99d37e9e-9240-4fdf-84b0-befd46fb6ade"
+              LastKnownName="!WonRuleStrategy"
+              LastKnownLocation="Package_1124.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="af4c3f36-61c9-4007-8ddd-936918a379cd"
+        name="IHitStrategy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="4a037bad-d898-4a42-8c32-5ec8df14189f"
+        name="INewGameStrategy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="99d37e9e-9240-4fdf-84b0-befd46fb6ade"
+        name="!WonRuleStrategy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

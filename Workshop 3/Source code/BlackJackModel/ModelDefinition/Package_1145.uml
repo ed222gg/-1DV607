@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c53abd37-7a43-4b8d-8c89-fe93b01572dd"
+  name="view" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="5e1a5d22-9c74-4e4f-b5e8-98e555fdab11"
+        name="IView"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4716a25d-de8a-4fff-827f-e82849540afc">
+            <classMoniker
+              Id="7d371a4b-0dbd-40eb-88f1-c3696ea4f6f6"
+              LastKnownName="Card"
+              LastKnownLocation="Package_1122.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="589c338f-12e8-43dc-8c31-999969ad23df"
+        name="SimpleView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a16864f4-63d6-46e0-bc4c-6f3ef95cf885">
+            <interfaceMoniker
+              Id="5e1a5d22-9c74-4e4f-b5e8-98e555fdab11"
+              LastKnownName="IView"
+              LastKnownLocation="Package_1145.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4efeeea4-dc64-46ae-981b-058992df498a"
+        name="SwedishView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f4e5b243-1b90-436a-85e4-ce08d3a19c69">
+            <interfaceMoniker
+              Id="5e1a5d22-9c74-4e4f-b5e8-98e555fdab11"
+              LastKnownName="IView"
+              LastKnownLocation="Package_1145.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bec11efb-1371-41db-8406-02c93abad3ec"
+  name="Controller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1f0d6e9f-19d6-4c10-bcd3-f7ac0a3a22e3"
+        name="PlayGame"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="abf57639-e4f1-42a6-a044-b6fbf2ffac25">
+            <interfaceMoniker
+              Id="b3acd5ae-019c-43dd-8d73-22eaeabb3085"
+              LastKnownName="BlackjackObserver"
+              LastKnownLocation="Package_1122.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="2e974a5f-5801-4834-bd2b-34170d4a54d2">
+            <interfaceMoniker
+              Id="5e1a5d22-9c74-4e4f-b5e8-98e555fdab11"
+              LastKnownName="IView"
+              LastKnownLocation="Package_1145.uml" />
+          </dependency>
+          <dependency
+            Id="8e6b7123-ddd8-43b8-bd8e-ee285ea5aa1d">
+            <classMoniker
+              Id="f9d3e33c-6eca-4f43-a29a-37d2d6bde6eb"
+              LastKnownName="Game"
+              LastKnownLocation="Package_1122.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

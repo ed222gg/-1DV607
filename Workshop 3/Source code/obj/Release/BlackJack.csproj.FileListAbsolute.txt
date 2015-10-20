@@ -1,0 +1,5 @@
+C:\Users\e\Downloads\Millan skola\blackjack_csharp-master (1)\blackjack_csharp-master\BlackJack\bin\Release\BlackJack.exe
+C:\Users\e\Downloads\Millan skola\blackjack_csharp-master (1)\blackjack_csharp-master\BlackJack\bin\Release\BlackJack.pdb
+C:\Users\e\Downloads\Millan skola\blackjack_csharp-master (1)\blackjack_csharp-master\BlackJack\obj\Release\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\e\Downloads\Millan skola\blackjack_csharp-master (1)\blackjack_csharp-master\BlackJack\obj\Release\BlackJack.exe
+C:\Users\e\Downloads\Millan skola\blackjack_csharp-master (1)\blackjack_csharp-master\BlackJack\obj\Release\BlackJack.pdb
